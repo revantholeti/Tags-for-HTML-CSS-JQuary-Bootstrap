@@ -1,0 +1,11 @@
+coutainer-fluid -- make website mobile friendly
+btn -- curved buttons
+btn-block -- full width buttons
+btn-banger -- red button
+btn-info -- skyblue button
+btn-default -- default button
+i -- tag -- icons
+fa,fa-thumbs-up --  like symbol
+fa,fa-info-circle -- circle symbol
+fa,fa-trash -- bin symbol
+fa,fa-paper-plane -- paper plane symbol

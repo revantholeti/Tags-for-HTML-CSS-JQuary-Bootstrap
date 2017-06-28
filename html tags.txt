@@ -1,0 +1,39 @@
+<hr> - line - wont contain ending part
+<br> - next line
+<p> - paragraph
+<h> - header
+<!-- --> - comments
+<pre> - accepts multiple spaces and line breaker
+<u> - underline
+<b> - bold
+<i> - italic
+<mark> - hilite
+<del> - line stock
+<sup> - superscript
+<sub> - subscript
+<abbr> - abrevation
+dev.w3.org/html5/html-author/charref - for more entities
+<ul> - unorderd list - dot points atribute-type
+<ol> - orderd list - number points atribute-type
+	<li> - list
+<dl> - discription list
+	<dt> - discription text
+	<dd> - discription data
+<table> - create table  attribute-border,cellspacing,cellpadding
+	<tr> - table row || attribute - colspan - to cover coloumns
+	<td> - table data
+	<th> - table heading attribute-width,hight
+<a> - add url name || attributes-href(address),target="_blank"(open link in new tab), _top, _self
+<iframe> - add webpage in current webpage || attribute - src,frameborder
+<img> - adding image || attribute - src
+-------------------------------------------------------------------------------
+<form>  <input>
+action=        new page name
+method="post"        secured
+enctype="multipart/form-data"  --- uplode a file to be secured
+type="text,radio,checkbox,submit(button),file,password"  always input tag should be inside form tags
+name=                      (for radio names should be same)
+value=			   (for values )
+<select> <option> 
+default  - selected - attribute
+<textarea>

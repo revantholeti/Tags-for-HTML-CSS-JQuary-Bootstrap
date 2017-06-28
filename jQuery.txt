@@ -1,0 +1,21 @@
+$(document).ready(function(){});  --  function start
+$("***").FUNCTION("CLASS NAME");
+*** -- targets,
+*** -- .classname/id.nth-child(NUM)
+*** -- .classname/id:even/odd
+
+ Functions                                             class names
+
+.addClass();                --------------------   "classname"
+.removeClass();             ---------------        "classname"
+.prop( );                   ---------------------  "disabled",true/false
+.remove();                  ---------------------   
+.css();                     ---------------------  "color","COLORNAME"
+.html();                    ---------------------  tags
+.appendTo();                ---------------------  "classname/idname"
+.clone().appendTo();        -----------------      "classname/idname"
+.parent().FUNCTION();       -----------------   
+.childern().FUNCTION();     --------------
+
+
+animated -- hinge,shake,bounce

@@ -1,0 +1,63 @@
+id
+create file as (.css) extinction
+<link > | attriute - rel(relation)="stylesheet",href(css file)
+	--[should be included in head]
+<div>,<span> - no specific use
+->(#) - for id's(id should be unique) || style=" "
+->(.) - for class(it can be used in multiple tags) || class=" "
+-> we can use direct tag name in css || h4 { }
+---------------------------------------------
+text-docotarion: none  --  underline(link)
+#a(id):link{}
+#a:visited{} - if visited
+#a:hover{} - pointer in the link
+#a:active{} - active state(on click)
+---------------------------------------------
+#a p{} - p(all p's of id's 'a' inside div)
+#a + p{} - to the singleline after div of id-a
+#a > p - to the p's which are childs not for grandchilds
+#a ~ p - to the lines after div of id-a
+height: (in px)
+weidth: (in px)
+margin_top:            |
+margin_left:           | 
+margin_right:          |   margin:(mixed from all sides,four values(top right bottom left)) 
+margin_bottom:         |           or(top,bottom left,right)
+padding: (in px)   padding:(mixed from all sides,four values(top right bottom left)or(top,bottom left,right))
+border:(color)(style)(px) || (border-left,right,top,bottom) (border-width,style,color)
+---------------------------------------------------------
+background-image:url("  "); - img should be in png formet
+background-size:   --   in px
+background-repeat:  --   no-repeat,repeat-x(in horizontel),repeat-y(in vertical)
+background-position:  --   right bottom,right top,left bottom,left top
+background:url("   ") repeat position;
+---------------------------------------------------------
+float: - (side to side)
+if float is used then last in div tag
+<div style="clear:both;"></div> shlould be given
+---------------------------------------------------------
+list--
+ul{ }     list-style-type:  -- disc,circle,rectangle...
+ol{ }     list-style-type:  -- lower-romen,lower-alpha,upper-romen,upper-alpha.....
+ul li{ }
+ol li{ }
+list-style-image:url("  ");
+----------------------------------------------------------
+text-align:  --  left,right,center,justify;
+text-decoration:  --  none,underline,overline,linethrough(line middle of text)
+text-transform:   --  uppercase,lowercase,capitalize(each letter of ever word is capital)
+text-indent:  --  in px(like a para-tab)
+text-shadow:  --  px px px color  (right bottom glow(brightness of text) color(of shadow))
+----------------------------------------------------------
+font--
+font-size:  --  in px
+font-weight:  --  bold
+font-style:  --  italic
+font-family:  --  (different styles of fonts)arial,"Times new romen",Times,serif
+-----------------------------------------------------------
+table--
+table{  }
+tr{  }
+td{  }
+th{  }
+border-collapse:  --  collapse(no spaces in between the borders)
