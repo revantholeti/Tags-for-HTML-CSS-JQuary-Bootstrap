@@ -37,3 +37,4 @@ value=			   (for values )
 <select> <option> 
 default  - selected - attribute
 <textarea>
+img,link tag doesn't need cloasing tag
